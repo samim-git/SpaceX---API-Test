@@ -1,0 +1,607 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		52DE5CAB27FF78BB0022A6DB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52DE5CAA27FF78BB0022A6DB /* AppDelegate.swift */; };
+		52DE5CAD27FF78BB0022A6DB /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52DE5CAC27FF78BB0022A6DB /* SceneDelegate.swift */; };
+		52DE5CAF27FF78BB0022A6DB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52DE5CAE27FF78BB0022A6DB /* ViewController.swift */; };
+		52DE5CB227FF78BB0022A6DB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 52DE5CB027FF78BB0022A6DB /* Main.storyboard */; };
+		52DE5CB427FF78C00022A6DB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 52DE5CB327FF78C00022A6DB /* Assets.xcassets */; };
+		52DE5CB727FF78C00022A6DB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 52DE5CB527FF78C00022A6DB /* LaunchScreen.storyboard */; };
+		52DE5CC227FF78C00022A6DB /* SpaceXSearchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52DE5CC127FF78C00022A6DB /* SpaceXSearchTests.swift */; };
+		52DE5CCC27FF78C10022A6DB /* SpaceXSearchUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52DE5CCB27FF78C10022A6DB /* SpaceXSearchUITests.swift */; };
+		52DE5CCE27FF78C10022A6DB /* SpaceXSearchUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52DE5CCD27FF78C10022A6DB /* SpaceXSearchUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		52DE5CBE27FF78C00022A6DB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 52DE5C9F27FF78BB0022A6DB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 52DE5CA627FF78BB0022A6DB;
+			remoteInfo = SpaceXSearch;
+		};
+		52DE5CC827FF78C10022A6DB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 52DE5C9F27FF78BB0022A6DB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 52DE5CA627FF78BB0022A6DB;
+			remoteInfo = SpaceXSearch;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		52DE5CA727FF78BB0022A6DB /* SpaceXSearch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SpaceXSearch.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		52DE5CAA27FF78BB0022A6DB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		52DE5CAC27FF78BB0022A6DB /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		52DE5CAE27FF78BB0022A6DB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		52DE5CB127FF78BB0022A6DB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		52DE5CB327FF78C00022A6DB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		52DE5CB627FF78C00022A6DB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		52DE5CB827FF78C00022A6DB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		52DE5CBD27FF78C00022A6DB /* SpaceXSearchTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SpaceXSearchTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		52DE5CC127FF78C00022A6DB /* SpaceXSearchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpaceXSearchTests.swift; sourceTree = "<group>"; };
+		52DE5CC727FF78C10022A6DB /* SpaceXSearchUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SpaceXSearchUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		52DE5CCB27FF78C10022A6DB /* SpaceXSearchUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpaceXSearchUITests.swift; sourceTree = "<group>"; };
+		52DE5CCD27FF78C10022A6DB /* SpaceXSearchUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpaceXSearchUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		52DE5CA427FF78BB0022A6DB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		52DE5CBA27FF78C00022A6DB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		52DE5CC427FF78C10022A6DB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		52DE5C9E27FF78BB0022A6DB = {
+			isa = PBXGroup;
+			children = (
+				52DE5CA927FF78BB0022A6DB /* SpaceXSearch */,
+				52DE5CC027FF78C00022A6DB /* SpaceXSearchTests */,
+				52DE5CCA27FF78C10022A6DB /* SpaceXSearchUITests */,
+				52DE5CA827FF78BB0022A6DB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		52DE5CA827FF78BB0022A6DB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				52DE5CA727FF78BB0022A6DB /* SpaceXSearch.app */,
+				52DE5CBD27FF78C00022A6DB /* SpaceXSearchTests.xctest */,
+				52DE5CC727FF78C10022A6DB /* SpaceXSearchUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		52DE5CA927FF78BB0022A6DB /* SpaceXSearch */ = {
+			isa = PBXGroup;
+			children = (
+				52DE5CAA27FF78BB0022A6DB /* AppDelegate.swift */,
+				52DE5CAC27FF78BB0022A6DB /* SceneDelegate.swift */,
+				52DE5CAE27FF78BB0022A6DB /* ViewController.swift */,
+				52DE5CB027FF78BB0022A6DB /* Main.storyboard */,
+				52DE5CB327FF78C00022A6DB /* Assets.xcassets */,
+				52DE5CB527FF78C00022A6DB /* LaunchScreen.storyboard */,
+				52DE5CB827FF78C00022A6DB /* Info.plist */,
+			);
+			path = SpaceXSearch;
+			sourceTree = "<group>";
+		};
+		52DE5CC027FF78C00022A6DB /* SpaceXSearchTests */ = {
+			isa = PBXGroup;
+			children = (
+				52DE5CC127FF78C00022A6DB /* SpaceXSearchTests.swift */,
+			);
+			path = SpaceXSearchTests;
+			sourceTree = "<group>";
+		};
+		52DE5CCA27FF78C10022A6DB /* SpaceXSearchUITests */ = {
+			isa = PBXGroup;
+			children = (
+				52DE5CCB27FF78C10022A6DB /* SpaceXSearchUITests.swift */,
+				52DE5CCD27FF78C10022A6DB /* SpaceXSearchUITestsLaunchTests.swift */,
+			);
+			path = SpaceXSearchUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		52DE5CA627FF78BB0022A6DB /* SpaceXSearch */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 52DE5CD127FF78C10022A6DB /* Build configuration list for PBXNativeTarget "SpaceXSearch" */;
+			buildPhases = (
+				52DE5CA327FF78BB0022A6DB /* Sources */,
+				52DE5CA427FF78BB0022A6DB /* Frameworks */,
+				52DE5CA527FF78BB0022A6DB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SpaceXSearch;
+			productName = SpaceXSearch;
+			productReference = 52DE5CA727FF78BB0022A6DB /* SpaceXSearch.app */;
+			productType = "com.apple.product-type.application";
+		};
+		52DE5CBC27FF78C00022A6DB /* SpaceXSearchTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 52DE5CD427FF78C10022A6DB /* Build configuration list for PBXNativeTarget "SpaceXSearchTests" */;
+			buildPhases = (
+				52DE5CB927FF78C00022A6DB /* Sources */,
+				52DE5CBA27FF78C00022A6DB /* Frameworks */,
+				52DE5CBB27FF78C00022A6DB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				52DE5CBF27FF78C00022A6DB /* PBXTargetDependency */,
+			);
+			name = SpaceXSearchTests;
+			productName = SpaceXSearchTests;
+			productReference = 52DE5CBD27FF78C00022A6DB /* SpaceXSearchTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		52DE5CC627FF78C10022A6DB /* SpaceXSearchUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 52DE5CD727FF78C10022A6DB /* Build configuration list for PBXNativeTarget "SpaceXSearchUITests" */;
+			buildPhases = (
+				52DE5CC327FF78C10022A6DB /* Sources */,
+				52DE5CC427FF78C10022A6DB /* Frameworks */,
+				52DE5CC527FF78C10022A6DB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				52DE5CC927FF78C10022A6DB /* PBXTargetDependency */,
+			);
+			name = SpaceXSearchUITests;
+			productName = SpaceXSearchUITests;
+			productReference = 52DE5CC727FF78C10022A6DB /* SpaceXSearchUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		52DE5C9F27FF78BB0022A6DB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1330;
+				LastUpgradeCheck = 1330;
+				TargetAttributes = {
+					52DE5CA627FF78BB0022A6DB = {
+						CreatedOnToolsVersion = 13.3;
+					};
+					52DE5CBC27FF78C00022A6DB = {
+						CreatedOnToolsVersion = 13.3;
+						TestTargetID = 52DE5CA627FF78BB0022A6DB;
+					};
+					52DE5CC627FF78C10022A6DB = {
+						CreatedOnToolsVersion = 13.3;
+						TestTargetID = 52DE5CA627FF78BB0022A6DB;
+					};
+				};
+			};
+			buildConfigurationList = 52DE5CA227FF78BB0022A6DB /* Build configuration list for PBXProject "SpaceXSearch" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 52DE5C9E27FF78BB0022A6DB;
+			productRefGroup = 52DE5CA827FF78BB0022A6DB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				52DE5CA627FF78BB0022A6DB /* SpaceXSearch */,
+				52DE5CBC27FF78C00022A6DB /* SpaceXSearchTests */,
+				52DE5CC627FF78C10022A6DB /* SpaceXSearchUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		52DE5CA527FF78BB0022A6DB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				52DE5CB727FF78C00022A6DB /* LaunchScreen.storyboard in Resources */,
+				52DE5CB427FF78C00022A6DB /* Assets.xcassets in Resources */,
+				52DE5CB227FF78BB0022A6DB /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		52DE5CBB27FF78C00022A6DB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		52DE5CC527FF78C10022A6DB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		52DE5CA327FF78BB0022A6DB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				52DE5CAF27FF78BB0022A6DB /* ViewController.swift in Sources */,
+				52DE5CAB27FF78BB0022A6DB /* AppDelegate.swift in Sources */,
+				52DE5CAD27FF78BB0022A6DB /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		52DE5CB927FF78C00022A6DB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				52DE5CC227FF78C00022A6DB /* SpaceXSearchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		52DE5CC327FF78C10022A6DB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				52DE5CCE27FF78C10022A6DB /* SpaceXSearchUITestsLaunchTests.swift in Sources */,
+				52DE5CCC27FF78C10022A6DB /* SpaceXSearchUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		52DE5CBF27FF78C00022A6DB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 52DE5CA627FF78BB0022A6DB /* SpaceXSearch */;
+			targetProxy = 52DE5CBE27FF78C00022A6DB /* PBXContainerItemProxy */;
+		};
+		52DE5CC927FF78C10022A6DB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 52DE5CA627FF78BB0022A6DB /* SpaceXSearch */;
+			targetProxy = 52DE5CC827FF78C10022A6DB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		52DE5CB027FF78BB0022A6DB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				52DE5CB127FF78BB0022A6DB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		52DE5CB527FF78C00022A6DB /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				52DE5CB627FF78C00022A6DB /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		52DE5CCF27FF78C10022A6DB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		52DE5CD027FF78C10022A6DB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		52DE5CD227FF78C10022A6DB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 45PYE6Z9PV;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SpaceXSearch/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.apps.spacex.SpaceXSearch;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		52DE5CD327FF78C10022A6DB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 45PYE6Z9PV;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SpaceXSearch/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.apps.spacex.SpaceXSearch;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		52DE5CD527FF78C10022A6DB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 45PYE6Z9PV;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.apps.spacex.SpaceXSearchTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SpaceXSearch.app/SpaceXSearch";
+			};
+			name = Debug;
+		};
+		52DE5CD627FF78C10022A6DB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 45PYE6Z9PV;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.apps.spacex.SpaceXSearchTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SpaceXSearch.app/SpaceXSearch";
+			};
+			name = Release;
+		};
+		52DE5CD827FF78C10022A6DB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 45PYE6Z9PV;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.apps.spacex.SpaceXSearchUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SpaceXSearch;
+			};
+			name = Debug;
+		};
+		52DE5CD927FF78C10022A6DB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 45PYE6Z9PV;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.apps.spacex.SpaceXSearchUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SpaceXSearch;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		52DE5CA227FF78BB0022A6DB /* Build configuration list for PBXProject "SpaceXSearch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				52DE5CCF27FF78C10022A6DB /* Debug */,
+				52DE5CD027FF78C10022A6DB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		52DE5CD127FF78C10022A6DB /* Build configuration list for PBXNativeTarget "SpaceXSearch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				52DE5CD227FF78C10022A6DB /* Debug */,
+				52DE5CD327FF78C10022A6DB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		52DE5CD427FF78C10022A6DB /* Build configuration list for PBXNativeTarget "SpaceXSearchTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				52DE5CD527FF78C10022A6DB /* Debug */,
+				52DE5CD627FF78C10022A6DB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		52DE5CD727FF78C10022A6DB /* Build configuration list for PBXNativeTarget "SpaceXSearchUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				52DE5CD827FF78C10022A6DB /* Debug */,
+				52DE5CD927FF78C10022A6DB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 52DE5C9F27FF78BB0022A6DB /* Project object */;
+}
