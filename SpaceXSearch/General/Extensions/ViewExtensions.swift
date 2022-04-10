@@ -211,7 +211,7 @@ extension UIView {
             dimView.addSubview(spinnerView)
             
             spinnerView.play{ (finished) in
-                print("Animation Finished!!")
+//                print("Animation Finished!!")
             }
         }
     }

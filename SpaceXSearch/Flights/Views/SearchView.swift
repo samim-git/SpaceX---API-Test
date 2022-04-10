@@ -15,6 +15,8 @@ class SearchView : UIView, UIPopoverControllerDelegate, UIPopoverPresentationCon
     
     
     var delegate : SearchViewDelegate!
+    
+    
     let containerView: UIView = {
         let view = UIView()
         view.translatesAutoresizingMaskIntoConstraints = false
@@ -111,6 +113,7 @@ class SearchView : UIView, UIPopoverControllerDelegate, UIPopoverPresentationCon
             containerView.trailingAnchor.constraint(equalTo: trailingAnchor,constant: -10),
             containerView.bottomAnchor.constraint(equalTo: bottomAnchor,constant: -10),
             
+            
             searchLbl.topAnchor.constraint(equalTo: containerView.topAnchor,constant: 20),
             searchLbl.leadingAnchor.constraint(equalTo: containerView.leadingAnchor,constant: 15),
             
@@ -195,7 +198,6 @@ class SearchView : UIView, UIPopoverControllerDelegate, UIPopoverPresentationCon
     
     
     @objc func closeMe(){
-//        disMissMe()
         self.delegate.onClose()
     }
     var successStatus : SuccessType = .both

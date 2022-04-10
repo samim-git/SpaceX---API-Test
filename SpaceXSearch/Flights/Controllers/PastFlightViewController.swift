@@ -9,8 +9,7 @@ import UIKit
 //import SwiftUI
 class PastFlightViewController: UIViewController, ItemSelectedDelegation {
 
-    
-    
+   
     let statusBackgroundView:UIView = {
         let view = UIView()
         view.translatesAutoresizingMaskIntoConstraints = false
@@ -78,7 +77,7 @@ class PastFlightViewController: UIViewController, ItemSelectedDelegation {
         self.flightViewModel = FlightViewModel()
         self.flightViewModel.bindViewmodelToVc = {
             self.view.stopActivityIndicator()
-            self.flightsView.flightList = self.flightViewModel.flightsData
+            self.flightsView.flightViewModel = self.flightViewModel
         }
         self.flightViewModel.getPastFlight(searchCariteria)
     }
@@ -104,8 +103,10 @@ extension PastFlightViewController : SearchViewDelegate{
         self.searchView.isHidden = true
         doSearch(searchCariteria: searchChareteria)
         customActionBarView.titleView.text = "Search Result"
-        self.customActionBarView.menuItems.append(
-            MenuItem(title: "", id: 1, icon: #imageLiteral(resourceName: "reset"),iconTintColor:Style.grayColor)
-        )
+        if customActionBarView.menuItems.count == 1 {
+            self.customActionBarView.menuItems.append(
+                MenuItem(title: "", id: 1, icon: #imageLiteral(resourceName: "reset"),iconTintColor:Style.grayColor)
+            )
+        }
     }
 }

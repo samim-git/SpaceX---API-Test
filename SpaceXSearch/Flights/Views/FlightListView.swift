@@ -8,18 +8,39 @@
 import UIKit
 class FlightListView : UICollectionView,UICollectionViewDelegateFlowLayout,UICollectionViewDataSource,UICollectionViewDelegate {
     
-    var flightList : [Flight]! = []{
+    let cellId = "cellId"
+    var flightViewModel : FlightViewModel = FlightViewModel(){
         didSet{
+            if flightViewModel.flightsData.isEmpty{
+                self.noDataFoundLbl.isHidden = false
+            } else {
+                self.noDataFoundLbl.isHidden = true
+            }
             self.reloadData()
         }
     }
-    let cellId = "cellId"
+    
+    let noDataFoundLbl : UILabel = {
+        let lbl = UILabel()
+        lbl.translatesAutoresizingMaskIntoConstraints = false
+        lbl.text = "No Flight Found"
+        lbl.isHidden = true
+        lbl.font = Style.normalBoldFont
+        return lbl
+    }()
+    
     override init(frame: CGRect, collectionViewLayout layout: UICollectionViewLayout) {
         super.init(frame: frame, collectionViewLayout: layout)
         self.delegate = self
         self.dataSource = self
         self.register(FlightCollectionViewCell.self, forCellWithReuseIdentifier: self.cellId)
         self.backgroundColor = UIColor.clear
+        
+        self.addSubview(noDataFoundLbl)
+        NSLayoutConstraint.activate([
+            noDataFoundLbl.centerXAnchor.constraint(equalTo: self.centerXAnchor),
+            noDataFoundLbl.centerYAnchor.constraint(equalTo: self.centerYAnchor)
+        ])
     }
     
     required init?(coder: NSCoder) {
@@ -28,12 +49,12 @@ class FlightListView : UICollectionView,UICollectionViewDelegateFlowLayout,UICol
 }
 extension FlightListView{
     func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
-        return flightList.count
+        return flightViewModel.flightsData.count
     }
     
     func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
         let cell = collectionView.dequeueReusableCell(withReuseIdentifier: self.cellId, for: indexPath) as! FlightCollectionViewCell
-        cell.flight = flightList[indexPath.item]
+        cell.flight = flightViewModel.flightsData[indexPath.item]
         return cell
     }
     

@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		5227FE0028030BFF00CEEFD3 /* anim.json in Resources */ = {isa = PBXBuildFile; fileRef = 5227FDFF28030BFF00CEEFD3 /* anim.json */; };
+		5227FE0228032ABF00CEEFD3 /* NextFlightViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5227FE0128032ABF00CEEFD3 /* NextFlightViewController.swift */; };
 		52D8040427FF84CA00051B9D /* Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52D8040327FF84C900051B9D /* Theme.swift */; };
 		52D8040627FF84F800051B9D /* KeyStrings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52D8040527FF84F800051B9D /* KeyStrings.swift */; };
 		52D8040827FF859900051B9D /* ViewExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52D8040727FF859900051B9D /* ViewExtensions.swift */; };
@@ -63,6 +64,7 @@
 		0B1B2CBADA5A67F60617D0A4 /* Pods_SpaceXSearch.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SpaceXSearch.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		2B607A39FC22B1F60180BA54 /* Pods-SpaceXSearch-SpaceXSearchUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SpaceXSearch-SpaceXSearchUITests.debug.xcconfig"; path = "Target Support Files/Pods-SpaceXSearch-SpaceXSearchUITests/Pods-SpaceXSearch-SpaceXSearchUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		5227FDFF28030BFF00CEEFD3 /* anim.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = anim.json; path = ../../../../timps/anim.json; sourceTree = "<group>"; };
+		5227FE0128032ABF00CEEFD3 /* NextFlightViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NextFlightViewController.swift; sourceTree = "<group>"; };
 		52D8040327FF84C900051B9D /* Theme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Theme.swift; sourceTree = "<group>"; };
 		52D8040527FF84F800051B9D /* KeyStrings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyStrings.swift; sourceTree = "<group>"; };
 		52D8040727FF859900051B9D /* ViewExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewExtensions.swift; sourceTree = "<group>"; };
@@ -298,6 +300,7 @@
 				52DE5CDB27FF79CF0022A6DB /* HomeViewController.swift */,
 				52D8040F27FF941800051B9D /* PastFlightViewController.swift */,
 				52D8042C280206BC00051B9D /* PopupViewController.swift */,
+				5227FE0128032ABF00CEEFD3 /* NextFlightViewController.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -562,6 +565,7 @@
 				52D8041F280197C900051B9D /* FlightViewModel.swift in Sources */,
 				52D8040427FF84CA00051B9D /* Theme.swift in Sources */,
 				52D804232801AD2300051B9D /* SearchCariteria.swift in Sources */,
+				5227FE0228032ABF00CEEFD3 /* NextFlightViewController.swift in Sources */,
 				52DE5CAD27FF78BB0022A6DB /* SceneDelegate.swift in Sources */,
 				52D8041027FF941800051B9D /* PastFlightViewController.swift in Sources */,
 				52D804212801A37D00051B9D /* CustomActionBarView.swift in Sources */,

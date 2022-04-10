@@ -7,7 +7,7 @@
 
 import Foundation
 class FlightViewModel : NSObject{
-    private (set) var flightsData : [Flight]! {
+    private (set) var flightsData : [Flight] = [] {
         didSet{
             self.bindViewmodelToVc()
         }

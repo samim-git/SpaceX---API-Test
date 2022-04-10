@@ -56,9 +56,9 @@ class HomeViewController: UITabBarController, UITabBarControllerDelegate {
    
    func setupTapItems(){
        let pastFlightVc = PastFlightViewController()
-       let upcomingFlightVc = PastFlightViewController()
-       let latestFlightVc = PastFlightViewController()
-       let nextFlightVc = PastFlightViewController()
+       let upcomingFlightVc = NextFlightViewController()
+       let latestFlightVc = NextFlightViewController()
+       let nextFlightVc = NextFlightViewController()
        self.viewControllers = [pastFlightVc,upcomingFlightVc,latestFlightVc,nextFlightVc]
    }
     
@@ -88,9 +88,10 @@ extension HomeViewController:ItemSelectedDelegation{
     func createMenuItems(){
         let menuItems:[MenuItem] = [
             MenuItem(title: "Past", id: 0, icon: #imageLiteral(resourceName: "shuttle"),isSelected:true),
-            MenuItem(title: "Upcoming", id: 1, icon: #imageLiteral(resourceName: "shuttle")),
-            MenuItem(title: "Latest", id: 2, icon: #imageLiteral(resourceName: "shuttle")),
-            MenuItem(title: "Next", id: 3, icon: #imageLiteral(resourceName: "shuttle"))
+            MenuItem(title: "Upcoming", id: 1, icon: #imageLiteral(resourceName: "upcoming")),
+            MenuItem(title: "Next", id: 2, icon: #imageLiteral(resourceName: "right")),
+            MenuItem(title: "Latest", id: 3, icon: #imageLiteral(resourceName: "last"))
+            
         ]
         self.customTabBarItem.menuItems = menuItems
         self.customTabBarItem.defaultIndex = 0
