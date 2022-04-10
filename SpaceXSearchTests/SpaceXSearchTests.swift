@@ -8,23 +8,68 @@
 import XCTest
 @testable import SpaceXSearch
 
+var pastFlightVc: PastFlightViewController!
+var viewModel: FlightViewModel!
 class SpaceXSearchTests: XCTestCase {
 
     override func setUpWithError() throws {
-        // Put setup code here. This method is called before the invocation of each test method in the class.
+        try super.setUpWithError()
+        pastFlightVc = PastFlightViewController()
+        viewModel = FlightViewModel()
+        
     }
 
     override func tearDownWithError() throws {
-        // Put teardown code here. This method is called after the invocation of each test method in the class.
+        try super.tearDownWithError()
+        pastFlightVc = nil
+        viewModel = nil
+    }
+    
+    func testLoadingFlightListWithNilSearchCariteria(){
+        let expectation = expectation(description: "Default Search is not working, or timeout error")
+        
+        viewModel.getPastFlight(nil)
+        viewModel.bindViewmodelToVc = {
+            
+            //check if the view model loaded the correct defult datas which is equal 30
+            XCTAssertEqual(viewModel.flightsData.count, 30)
+            
+            expectation.fulfill()
+            
+        }
+        
+        waitForExpectations(timeout: 15) { error in
+            if let error = error {
+              XCTFail("Error: \(error)")
+            }
+        }
+       
+
+    }
+    
+    func testLoadingFlightListWithLimitedData(){
+        let expectation = expectation(description: "Limit Data is not true")
+        var sc : SearchCariteria = SearchCariteria()
+        sc.limit = 100
+        viewModel.getPastFlight(sc)
+        viewModel.bindViewmodelToVc = {
+            
+            //check if the view model loaded the correct defult datas which is equal 30
+            XCTAssertLessThanOrEqual(viewModel.flightsData.count, sc.limit, "Data should be equal or lower than limit")
+            
+            expectation.fulfill()
+            
+        }
+        
+        waitForExpectations(timeout: 15) { error in
+            if let error = error {
+              XCTFail("Error: \(error)")
+            }
+        }
+       
+
     }
 
-    func testExample() throws {
-        // This is an example of a functional test case.
-        // Use XCTAssert and related functions to verify your tests produce the correct results.
-        // Any test you write for XCTest can be annotated as throws and async.
-        // Mark your test throws to produce an unexpected failure when your test encounters an uncaught error.
-        // Mark your test async to allow awaiting for asynchronous code to complete. Check the results with assertions afterwards.
-    }
 
     func testPerformanceExample() throws {
         // This is an example of a performance test case.

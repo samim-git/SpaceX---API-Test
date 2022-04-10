@@ -24,6 +24,8 @@ class HomeViewController: UITabBarController, UITabBarControllerDelegate {
         view.backgroundColor = Style.mainColorWhite
         return view
     }()
+    
+    
    override func viewDidLoad() {
        super.viewDidLoad()
        self.view.backgroundColor = UIColor.white
@@ -36,8 +38,7 @@ class HomeViewController: UITabBarController, UITabBarControllerDelegate {
     }
     
     func setupViews(){
-        self.view.addSubview(statusBackgroundView)
-        self.view.addSubview(customTabBarItem)
+        self.view.addSubviews(statusBackgroundView,customTabBarItem)
         
         NSLayoutConstraint.activate([
             customTabBarItem.bottomAnchor.constraint(equalTo: self.view.safeAreaLayoutGuide.bottomAnchor),

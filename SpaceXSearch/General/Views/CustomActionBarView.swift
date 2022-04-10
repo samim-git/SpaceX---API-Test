@@ -324,7 +324,7 @@ private class ActionBarCell:UICollectionViewCell{
         super.init(frame: frame)
         self.addSubview(containrView)
         containrView.addFullContaintAnchor(to: self)
-        containrView.makeViewLabaled(view: iconView, lblView: menuLbl, direction: .top, padding: (10,10,10,10), lblPadding: 0,lblHeight:0)
+        containrView.makeViewLabaled(view: iconView, lblView: menuLbl, direction: .top, padding: (15,15,15,15), lblPadding: 0,lblHeight:0)
         
         contentView.addSubview(hintView)
         hintView.heightAnchor.constraint(equalToConstant: 10).isActive = true

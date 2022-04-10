@@ -17,7 +17,6 @@ class FlightViewModel : NSObject{
     
     override init() {
         super.init()
-        //getPastFlight()
     }
     
     
@@ -49,15 +48,17 @@ class FlightViewModel : NSObject{
             searchUrl.append("&offset=1")
             searchUrl.append("&order=\(OrderType.desc.rawValue)")
         }
-        print("Search Url....: \(searchUrl)")
+        searchUrl = searchUrl.replacingOccurrences(of: " ", with: "%20")
+        print("encoded url: \(searchUrl)")
         RequestHelper.request(api: searchUrl, method: .get) { response in
             var tempList : [Flight] = []
             if let resultData = response{
                 for result in resultData {
                     tempList.append(Flight(dataDict: result))
                 }
+                self.flightsData = tempList
             }
-            self.flightsData = tempList
+            
         }
         
     }

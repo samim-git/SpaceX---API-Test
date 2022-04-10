@@ -16,7 +16,7 @@ class FlightCollectionViewCell: UICollectionViewCell {
             }
             if let flightDate = flight.lanchedDate{
 //                self.dateLbl.text = "\(flightDate)"
-                self.dateLbl.text = Date(milliseconds: flightDate).getDateLabel()
+                self.dateLbl.text = Date().getUnixTime(timeUnix: flightDate)
             }
             if let missionName = flight.missionName{
                 self.missionNameLbl.text = missionName

@@ -7,15 +7,37 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5227FE0028030BFF00CEEFD3 /* anim.json in Resources */ = {isa = PBXBuildFile; fileRef = 5227FDFF28030BFF00CEEFD3 /* anim.json */; };
+		52D8040427FF84CA00051B9D /* Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52D8040327FF84C900051B9D /* Theme.swift */; };
+		52D8040627FF84F800051B9D /* KeyStrings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52D8040527FF84F800051B9D /* KeyStrings.swift */; };
+		52D8040827FF859900051B9D /* ViewExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52D8040727FF859900051B9D /* ViewExtensions.swift */; };
+		52D8040A27FF85A800051B9D /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52D8040927FF85A800051B9D /* Extensions.swift */; };
+		52D8040C27FF87FF00051B9D /* CustomTabBarMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52D8040B27FF87FF00051B9D /* CustomTabBarMenu.swift */; };
+		52D8040E27FF886300051B9D /* MenuItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52D8040D27FF886300051B9D /* MenuItem.swift */; };
+		52D8041027FF941800051B9D /* PastFlightViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52D8040F27FF941800051B9D /* PastFlightViewController.swift */; };
+		52D8041227FFA92A00051B9D /* FlightDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52D8041127FFA92A00051B9D /* FlightDetail.swift */; };
+		52D8041728005DE800051B9D /* FlightCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52D8041628005DE800051B9D /* FlightCollectionViewCell.swift */; };
+		52D80419280084E200051B9D /* FlightListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52D80418280084E200051B9D /* FlightListView.swift */; };
+		52D8041B2800B3FB00051B9D /* RequestHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52D8041A2800B3FA00051B9D /* RequestHelper.swift */; };
+		52D8041D280196F300051B9D /* ApiService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52D8041C280196F300051B9D /* ApiService.swift */; };
+		52D8041F280197C900051B9D /* FlightViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52D8041E280197C900051B9D /* FlightViewModel.swift */; };
+		52D804212801A37D00051B9D /* CustomActionBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52D804202801A37D00051B9D /* CustomActionBarView.swift */; };
+		52D804232801AD2300051B9D /* SearchCariteria.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52D804222801AD2300051B9D /* SearchCariteria.swift */; };
+		52D804292801BCAC00051B9D /* SearchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52D804282801BCAC00051B9D /* SearchView.swift */; };
+		52D8042B2801C2AA00051B9D /* CustomTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52D8042A2801C2AA00051B9D /* CustomTextField.swift */; };
+		52D8042D280206BC00051B9D /* PopupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52D8042C280206BC00051B9D /* PopupViewController.swift */; };
+		52D8043328025F2300051B9D /* ImageButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52D8043228025F2200051B9D /* ImageButton.swift */; };
 		52DE5CAB27FF78BB0022A6DB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52DE5CAA27FF78BB0022A6DB /* AppDelegate.swift */; };
 		52DE5CAD27FF78BB0022A6DB /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52DE5CAC27FF78BB0022A6DB /* SceneDelegate.swift */; };
-		52DE5CAF27FF78BB0022A6DB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52DE5CAE27FF78BB0022A6DB /* ViewController.swift */; };
-		52DE5CB227FF78BB0022A6DB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 52DE5CB027FF78BB0022A6DB /* Main.storyboard */; };
 		52DE5CB427FF78C00022A6DB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 52DE5CB327FF78C00022A6DB /* Assets.xcassets */; };
 		52DE5CB727FF78C00022A6DB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 52DE5CB527FF78C00022A6DB /* LaunchScreen.storyboard */; };
 		52DE5CC227FF78C00022A6DB /* SpaceXSearchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52DE5CC127FF78C00022A6DB /* SpaceXSearchTests.swift */; };
 		52DE5CCC27FF78C10022A6DB /* SpaceXSearchUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52DE5CCB27FF78C10022A6DB /* SpaceXSearchUITests.swift */; };
 		52DE5CCE27FF78C10022A6DB /* SpaceXSearchUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52DE5CCD27FF78C10022A6DB /* SpaceXSearchUITestsLaunchTests.swift */; };
+		52DE5CDC27FF79CF0022A6DB /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52DE5CDB27FF79CF0022A6DB /* HomeViewController.swift */; };
+		B32AA7EDE5E90291C4906B09 /* Pods_SpaceXSearch_SpaceXSearchUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 036972E88863BD31CDC7ABAF /* Pods_SpaceXSearch_SpaceXSearchUITests.framework */; };
+		CD87F10C614E65F2821C3D17 /* Pods_SpaceXSearch.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0B1B2CBADA5A67F60617D0A4 /* Pods_SpaceXSearch.framework */; };
+		D443ABBCE96921F3EEEFD9C9 /* Pods_SpaceXSearchTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 00AF418FCF7607B3F41E5163 /* Pods_SpaceXSearchTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,11 +58,33 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		00AF418FCF7607B3F41E5163 /* Pods_SpaceXSearchTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SpaceXSearchTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		036972E88863BD31CDC7ABAF /* Pods_SpaceXSearch_SpaceXSearchUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SpaceXSearch_SpaceXSearchUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		0B1B2CBADA5A67F60617D0A4 /* Pods_SpaceXSearch.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SpaceXSearch.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2B607A39FC22B1F60180BA54 /* Pods-SpaceXSearch-SpaceXSearchUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SpaceXSearch-SpaceXSearchUITests.debug.xcconfig"; path = "Target Support Files/Pods-SpaceXSearch-SpaceXSearchUITests/Pods-SpaceXSearch-SpaceXSearchUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		5227FDFF28030BFF00CEEFD3 /* anim.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = anim.json; path = ../../../../timps/anim.json; sourceTree = "<group>"; };
+		52D8040327FF84C900051B9D /* Theme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Theme.swift; sourceTree = "<group>"; };
+		52D8040527FF84F800051B9D /* KeyStrings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyStrings.swift; sourceTree = "<group>"; };
+		52D8040727FF859900051B9D /* ViewExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewExtensions.swift; sourceTree = "<group>"; };
+		52D8040927FF85A800051B9D /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		52D8040B27FF87FF00051B9D /* CustomTabBarMenu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTabBarMenu.swift; sourceTree = "<group>"; };
+		52D8040D27FF886300051B9D /* MenuItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuItem.swift; sourceTree = "<group>"; };
+		52D8040F27FF941800051B9D /* PastFlightViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PastFlightViewController.swift; sourceTree = "<group>"; };
+		52D8041127FFA92A00051B9D /* FlightDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlightDetail.swift; sourceTree = "<group>"; };
+		52D8041628005DE800051B9D /* FlightCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlightCollectionViewCell.swift; sourceTree = "<group>"; };
+		52D80418280084E200051B9D /* FlightListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlightListView.swift; sourceTree = "<group>"; };
+		52D8041A2800B3FA00051B9D /* RequestHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RequestHelper.swift; sourceTree = "<group>"; };
+		52D8041C280196F300051B9D /* ApiService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiService.swift; sourceTree = "<group>"; };
+		52D8041E280197C900051B9D /* FlightViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlightViewModel.swift; sourceTree = "<group>"; };
+		52D804202801A37D00051B9D /* CustomActionBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomActionBarView.swift; sourceTree = "<group>"; };
+		52D804222801AD2300051B9D /* SearchCariteria.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchCariteria.swift; sourceTree = "<group>"; };
+		52D804282801BCAC00051B9D /* SearchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchView.swift; sourceTree = "<group>"; };
+		52D8042A2801C2AA00051B9D /* CustomTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTextField.swift; sourceTree = "<group>"; };
+		52D8042C280206BC00051B9D /* PopupViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopupViewController.swift; sourceTree = "<group>"; };
+		52D8043228025F2200051B9D /* ImageButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageButton.swift; sourceTree = "<group>"; };
 		52DE5CA727FF78BB0022A6DB /* SpaceXSearch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SpaceXSearch.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		52DE5CAA27FF78BB0022A6DB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		52DE5CAC27FF78BB0022A6DB /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		52DE5CAE27FF78BB0022A6DB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		52DE5CB127FF78BB0022A6DB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		52DE5CB327FF78C00022A6DB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		52DE5CB627FF78C00022A6DB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		52DE5CB827FF78C00022A6DB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -49,6 +93,12 @@
 		52DE5CC727FF78C10022A6DB /* SpaceXSearchUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SpaceXSearchUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		52DE5CCB27FF78C10022A6DB /* SpaceXSearchUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpaceXSearchUITests.swift; sourceTree = "<group>"; };
 		52DE5CCD27FF78C10022A6DB /* SpaceXSearchUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpaceXSearchUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		52DE5CDB27FF79CF0022A6DB /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		59D09847F97C50319FDF761B /* Pods-SpaceXSearchTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SpaceXSearchTests.debug.xcconfig"; path = "Target Support Files/Pods-SpaceXSearchTests/Pods-SpaceXSearchTests.debug.xcconfig"; sourceTree = "<group>"; };
+		9786A17EB99270E1653E9090 /* Pods-SpaceXSearch.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SpaceXSearch.debug.xcconfig"; path = "Target Support Files/Pods-SpaceXSearch/Pods-SpaceXSearch.debug.xcconfig"; sourceTree = "<group>"; };
+		DB440F602E9B8E1EE9FC9782 /* Pods-SpaceXSearchTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SpaceXSearchTests.release.xcconfig"; path = "Target Support Files/Pods-SpaceXSearchTests/Pods-SpaceXSearchTests.release.xcconfig"; sourceTree = "<group>"; };
+		E16AC196C5CF545714AB81A3 /* Pods-SpaceXSearch.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SpaceXSearch.release.xcconfig"; path = "Target Support Files/Pods-SpaceXSearch/Pods-SpaceXSearch.release.xcconfig"; sourceTree = "<group>"; };
+		E5C1DF026A9577193E923FE1 /* Pods-SpaceXSearch-SpaceXSearchUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SpaceXSearch-SpaceXSearchUITests.release.xcconfig"; path = "Target Support Files/Pods-SpaceXSearch-SpaceXSearchUITests/Pods-SpaceXSearch-SpaceXSearchUITests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +106,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CD87F10C614E65F2821C3D17 /* Pods_SpaceXSearch.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +114,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D443ABBCE96921F3EEEFD9C9 /* Pods_SpaceXSearchTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,12 +122,122 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B32AA7EDE5E90291C4906B09 /* Pods_SpaceXSearch_SpaceXSearchUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		19D859384A4C9E36502EE36D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9786A17EB99270E1653E9090 /* Pods-SpaceXSearch.debug.xcconfig */,
+				E16AC196C5CF545714AB81A3 /* Pods-SpaceXSearch.release.xcconfig */,
+				2B607A39FC22B1F60180BA54 /* Pods-SpaceXSearch-SpaceXSearchUITests.debug.xcconfig */,
+				E5C1DF026A9577193E923FE1 /* Pods-SpaceXSearch-SpaceXSearchUITests.release.xcconfig */,
+				59D09847F97C50319FDF761B /* Pods-SpaceXSearchTests.debug.xcconfig */,
+				DB440F602E9B8E1EE9FC9782 /* Pods-SpaceXSearchTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		5227FDFE28030BE800CEEFD3 /* Res */ = {
+			isa = PBXGroup;
+			children = (
+				5227FDFF28030BFF00CEEFD3 /* anim.json */,
+			);
+			path = Res;
+			sourceTree = "<group>";
+		};
+		52D803FE27FF82EE00051B9D /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				52D8040727FF859900051B9D /* ViewExtensions.swift */,
+				52D8040927FF85A800051B9D /* Extensions.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		52D803FF27FF82F800051B9D /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				52D8040327FF84C900051B9D /* Theme.swift */,
+				52D8040527FF84F800051B9D /* KeyStrings.swift */,
+				52D8041A2800B3FA00051B9D /* RequestHelper.swift */,
+				52D8041C280196F300051B9D /* ApiService.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		52D8040027FF838400051B9D /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				52D8040D27FF886300051B9D /* MenuItem.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		52D8040127FF838F00051B9D /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				52D8041E280197C900051B9D /* FlightViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		52D8040227FF83A200051B9D /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				52D8040B27FF87FF00051B9D /* CustomTabBarMenu.swift */,
+				52D804202801A37D00051B9D /* CustomActionBarView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		52D804242801BBBE00051B9D /* Flights */ = {
+			isa = PBXGroup;
+			children = (
+				52D804262801BC0A00051B9D /* Models */,
+				52DE5CDA27FF797B0022A6DB /* Controllers */,
+				52D8040127FF838F00051B9D /* ViewModels */,
+				52D804252801BBCF00051B9D /* Views */,
+			);
+			path = Flights;
+			sourceTree = "<group>";
+		};
+		52D804252801BBCF00051B9D /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				52D8041628005DE800051B9D /* FlightCollectionViewCell.swift */,
+				52D80418280084E200051B9D /* FlightListView.swift */,
+				52D804282801BCAC00051B9D /* SearchView.swift */,
+				52D8042A2801C2AA00051B9D /* CustomTextField.swift */,
+				52D8043228025F2200051B9D /* ImageButton.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		52D804262801BC0A00051B9D /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				52D8041127FFA92A00051B9D /* FlightDetail.swift */,
+				52D804222801AD2300051B9D /* SearchCariteria.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		52D804272801BC7500051B9D /* General */ = {
+			isa = PBXGroup;
+			children = (
+				52D8040227FF83A200051B9D /* Views */,
+				52D8040027FF838400051B9D /* Models */,
+				52D803FF27FF82F800051B9D /* Helpers */,
+				52D803FE27FF82EE00051B9D /* Extensions */,
+			);
+			path = General;
+			sourceTree = "<group>";
+		};
 		52DE5C9E27FF78BB0022A6DB = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +245,8 @@
 				52DE5CC027FF78C00022A6DB /* SpaceXSearchTests */,
 				52DE5CCA27FF78C10022A6DB /* SpaceXSearchUITests */,
 				52DE5CA827FF78BB0022A6DB /* Products */,
+				19D859384A4C9E36502EE36D /* Pods */,
+				DB4A2741C17179FEF5B87A9E /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -99,10 +263,11 @@
 		52DE5CA927FF78BB0022A6DB /* SpaceXSearch */ = {
 			isa = PBXGroup;
 			children = (
+				5227FDFE28030BE800CEEFD3 /* Res */,
+				52D804272801BC7500051B9D /* General */,
+				52D804242801BBBE00051B9D /* Flights */,
 				52DE5CAA27FF78BB0022A6DB /* AppDelegate.swift */,
 				52DE5CAC27FF78BB0022A6DB /* SceneDelegate.swift */,
-				52DE5CAE27FF78BB0022A6DB /* ViewController.swift */,
-				52DE5CB027FF78BB0022A6DB /* Main.storyboard */,
 				52DE5CB327FF78C00022A6DB /* Assets.xcassets */,
 				52DE5CB527FF78C00022A6DB /* LaunchScreen.storyboard */,
 				52DE5CB827FF78C00022A6DB /* Info.plist */,
@@ -127,6 +292,26 @@
 			path = SpaceXSearchUITests;
 			sourceTree = "<group>";
 		};
+		52DE5CDA27FF797B0022A6DB /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				52DE5CDB27FF79CF0022A6DB /* HomeViewController.swift */,
+				52D8040F27FF941800051B9D /* PastFlightViewController.swift */,
+				52D8042C280206BC00051B9D /* PopupViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		DB4A2741C17179FEF5B87A9E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0B1B2CBADA5A67F60617D0A4 /* Pods_SpaceXSearch.framework */,
+				036972E88863BD31CDC7ABAF /* Pods_SpaceXSearch_SpaceXSearchUITests.framework */,
+				00AF418FCF7607B3F41E5163 /* Pods_SpaceXSearchTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -134,9 +319,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 52DE5CD127FF78C10022A6DB /* Build configuration list for PBXNativeTarget "SpaceXSearch" */;
 			buildPhases = (
+				38E01033ED1474AF74727CB2 /* [CP] Check Pods Manifest.lock */,
 				52DE5CA327FF78BB0022A6DB /* Sources */,
 				52DE5CA427FF78BB0022A6DB /* Frameworks */,
 				52DE5CA527FF78BB0022A6DB /* Resources */,
+				A7FB71373DFF30FAC54EFDBE /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -151,6 +338,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 52DE5CD427FF78C10022A6DB /* Build configuration list for PBXNativeTarget "SpaceXSearchTests" */;
 			buildPhases = (
+				727E2D6A4657F718108A0409 /* [CP] Check Pods Manifest.lock */,
 				52DE5CB927FF78C00022A6DB /* Sources */,
 				52DE5CBA27FF78C00022A6DB /* Frameworks */,
 				52DE5CBB27FF78C00022A6DB /* Resources */,
@@ -169,9 +357,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 52DE5CD727FF78C10022A6DB /* Build configuration list for PBXNativeTarget "SpaceXSearchUITests" */;
 			buildPhases = (
+				8C3DC036360DD52EE98F02D2 /* [CP] Check Pods Manifest.lock */,
 				52DE5CC327FF78C10022A6DB /* Sources */,
 				52DE5CC427FF78C10022A6DB /* Frameworks */,
 				52DE5CC527FF78C10022A6DB /* Resources */,
+				9E43AF7A7E91C94847EA6963 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -233,7 +423,7 @@
 			files = (
 				52DE5CB727FF78C00022A6DB /* LaunchScreen.storyboard in Resources */,
 				52DE5CB427FF78C00022A6DB /* Assets.xcassets in Resources */,
-				52DE5CB227FF78BB0022A6DB /* Main.storyboard in Resources */,
+				5227FE0028030BFF00CEEFD3 /* anim.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -253,14 +443,136 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		38E01033ED1474AF74727CB2 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SpaceXSearch-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		727E2D6A4657F718108A0409 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SpaceXSearchTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8C3DC036360DD52EE98F02D2 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SpaceXSearch-SpaceXSearchUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9E43AF7A7E91C94847EA6963 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SpaceXSearch-SpaceXSearchUITests/Pods-SpaceXSearch-SpaceXSearchUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SpaceXSearch-SpaceXSearchUITests/Pods-SpaceXSearch-SpaceXSearchUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SpaceXSearch-SpaceXSearchUITests/Pods-SpaceXSearch-SpaceXSearchUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A7FB71373DFF30FAC54EFDBE /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SpaceXSearch/Pods-SpaceXSearch-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SpaceXSearch/Pods-SpaceXSearch-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SpaceXSearch/Pods-SpaceXSearch-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		52DE5CA327FF78BB0022A6DB /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				52DE5CAF27FF78BB0022A6DB /* ViewController.swift in Sources */,
+				52D8041B2800B3FB00051B9D /* RequestHelper.swift in Sources */,
+				52D804292801BCAC00051B9D /* SearchView.swift in Sources */,
+				52D8041D280196F300051B9D /* ApiService.swift in Sources */,
+				52D8041728005DE800051B9D /* FlightCollectionViewCell.swift in Sources */,
+				52D8042B2801C2AA00051B9D /* CustomTextField.swift in Sources */,
+				52D8040827FF859900051B9D /* ViewExtensions.swift in Sources */,
 				52DE5CAB27FF78BB0022A6DB /* AppDelegate.swift in Sources */,
+				52D8040627FF84F800051B9D /* KeyStrings.swift in Sources */,
+				52D8041F280197C900051B9D /* FlightViewModel.swift in Sources */,
+				52D8040427FF84CA00051B9D /* Theme.swift in Sources */,
+				52D804232801AD2300051B9D /* SearchCariteria.swift in Sources */,
 				52DE5CAD27FF78BB0022A6DB /* SceneDelegate.swift in Sources */,
+				52D8041027FF941800051B9D /* PastFlightViewController.swift in Sources */,
+				52D804212801A37D00051B9D /* CustomActionBarView.swift in Sources */,
+				52D80419280084E200051B9D /* FlightListView.swift in Sources */,
+				52DE5CDC27FF79CF0022A6DB /* HomeViewController.swift in Sources */,
+				52D8040A27FF85A800051B9D /* Extensions.swift in Sources */,
+				52D8043328025F2300051B9D /* ImageButton.swift in Sources */,
+				52D8041227FFA92A00051B9D /* FlightDetail.swift in Sources */,
+				52D8040C27FF87FF00051B9D /* CustomTabBarMenu.swift in Sources */,
+				52D8040E27FF886300051B9D /* MenuItem.swift in Sources */,
+				52D8042D280206BC00051B9D /* PopupViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -297,14 +609,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		52DE5CB027FF78BB0022A6DB /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				52DE5CB127FF78BB0022A6DB /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		52DE5CB527FF78C00022A6DB /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -366,7 +670,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -420,7 +724,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -432,6 +736,7 @@
 		};
 		52DE5CD227FF78C10022A6DB /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9786A17EB99270E1653E9090 /* Pods-SpaceXSearch.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -442,7 +747,7 @@
 				INFOPLIST_FILE = SpaceXSearch/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -450,7 +755,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.apps.spacex.SpaceXSearch;
+				PRODUCT_BUNDLE_IDENTIFIER = com.apps.spacex;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -460,6 +765,7 @@
 		};
 		52DE5CD327FF78C10022A6DB /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E16AC196C5CF545714AB81A3 /* Pods-SpaceXSearch.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -470,7 +776,7 @@
 				INFOPLIST_FILE = SpaceXSearch/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -478,7 +784,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.apps.spacex.SpaceXSearch;
+				PRODUCT_BUNDLE_IDENTIFIER = com.apps.spacex;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -488,6 +794,7 @@
 		};
 		52DE5CD527FF78C10022A6DB /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 59D09847F97C50319FDF761B /* Pods-SpaceXSearchTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -508,6 +815,7 @@
 		};
 		52DE5CD627FF78C10022A6DB /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DB440F602E9B8E1EE9FC9782 /* Pods-SpaceXSearchTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -528,6 +836,7 @@
 		};
 		52DE5CD827FF78C10022A6DB /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2B607A39FC22B1F60180BA54 /* Pods-SpaceXSearch-SpaceXSearchUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -546,6 +855,7 @@
 		};
 		52DE5CD927FF78C10022A6DB /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E5C1DF026A9577193E923FE1 /* Pods-SpaceXSearch-SpaceXSearchUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;

@@ -8,7 +8,7 @@
 import UIKit
 class FlightListView : UICollectionView,UICollectionViewDelegateFlowLayout,UICollectionViewDataSource,UICollectionViewDelegate {
     
-    var flightList : [Flight] = []{
+    var flightList : [Flight]! = []{
         didSet{
             self.reloadData()
         }

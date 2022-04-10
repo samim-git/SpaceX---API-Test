@@ -6,6 +6,7 @@
 //
 
 import UIKit
+import Lottie
 extension UIView {
     func dropShadow(offset: CGSize = CGSize(width: 0, height: -2), color: UIColor = UIColor.black, radius: CGFloat = 4.0, opacity: Float = 0.08) {
         layer.masksToBounds = false
@@ -170,6 +171,60 @@ extension UIView {
         statusBackgroundView.trailingAnchor.constraint(equalTo: trailingAnchor).isActive = true
         statusBackgroundView.bottomAnchor.constraint(equalTo: viewComps.actionBarView.topAnchor).isActive = true
         statusBackgroundView.backgroundColor = statusBarColor
+    }
+    var parentViewController: UIViewController? {
+        var parentResponder: UIResponder? = self.next
+        while parentResponder != nil {
+            if let viewController = parentResponder as? UIViewController {
+                return viewController
+            }
+            parentResponder = parentResponder!.next
+        }
+        return nil
+    }
+    
+    
+    var activityIndicatorTag: Int { return 9427342 }
+    func startActivityIndicator(_ type: Int = 1) {
+        DispatchQueue.main.async {
+            if self.subviews.filter({$0.tag == self.activityIndicatorTag}).first != nil {
+                return
+            }
+            
+            let dimView = UIView()
+            dimView.frame = self.frame
+            dimView.center = self.center
+            
+            dimView.tag = self.activityIndicatorTag
+            dimView.backgroundColor = UIColor.white.withAlphaComponent(0.5)
+            self.addSubview(dimView)
+            
+            let spinnerFrame = CGRect(x: 0, y: 0, width: 190, height: 190)
+            
+            let spinnerView = AnimationView(name: "anim")
+            spinnerView.loopMode = .loop
+            spinnerView.frame = spinnerFrame
+            spinnerView.center = self.center
+            spinnerView.layer.cornerRadius = 6
+            spinnerView.layer.masksToBounds = true
+            spinnerView.backgroundColor = .white
+            dimView.addSubview(spinnerView)
+            
+            spinnerView.play{ (finished) in
+                print("Animation Finished!!")
+            }
+        }
+    }
+    func stopActivityIndicator() {
+        DispatchQueue.main.async {
+            if let dimView = self.subviews.filter({$0.tag == self.activityIndicatorTag}).first {
+                if let animationView = dimView.subviews.filter({$0.tag == self.activityIndicatorTag}).first as? AnimationView {
+                    animationView.loopMode = .loop
+                    animationView.stop()
+                }
+                dimView.removeFromSuperview()
+            }
+        }
     }
 }
 enum Direction: Int{

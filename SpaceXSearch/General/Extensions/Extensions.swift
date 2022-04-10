@@ -89,4 +89,17 @@ extension Date{
         let currentDateStr = formatter.string(from: self)
         return currentDateStr
     }
+    
+    func getUnixTime(timeUnix:Double) -> String{
+        let date = Date(timeIntervalSince1970: timeUnix)
+        return date.getDateLabel()
+    }
+    
+}
+
+extension String {
+    var urlEncoded: String? {
+        let allowedCharacterSet = CharacterSet.alphanumerics.union(CharacterSet(charactersIn: "~-_."))
+        return self.addingPercentEncoding(withAllowedCharacters: allowedCharacterSet)
+    }
 }
